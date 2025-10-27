@@ -10,8 +10,6 @@ from skimage.feature import corner_harris, corner_subpix, corner_peaks
 from skimage.filters import threshold_otsu
 from scipy.signal import convolve2d
 
-from EdgeDetection import Img_gray
-
 def foto(Img_name):
     path =r'C:\Users\danie\Desktop\IPCV\Foto Esercitazioni'
 
