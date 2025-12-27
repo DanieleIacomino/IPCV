@@ -141,5 +141,6 @@ Labels=watershed(-Dem,Markers,mask=Img_thresholded)
 
 plt.figure()
 plt.imshow(Labels, cmap='gray')
+plt.title("Watershed Segmentation")
 plt.axis('off')
 plt.show()

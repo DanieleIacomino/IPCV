@@ -24,12 +24,12 @@ Ifft=np.fft.fft2(Img1gray)
 Ifft=np.fft.fftshift(Ifft)
 
 
-#plt.figure(figsize=(12, 6))
-#plt.subplot(1,2,1) 
-#plt.imshow(Img1gray, cmap ='gray'), plt.title('Original')
-#plt.subplot(1,2,2) 
-#plt.imshow(np.log(np.abs(Ifft)), cmap ='bwr'), plt.title('Fourier Transform')
-#plt.show()
+plt.figure(figsize=(12, 6))
+plt.subplot(1,2,1) 
+plt.imshow(Img1gray, cmap ='gray'), plt.title('Original')
+plt.subplot(1,2,2) 
+plt.imshow(np.log(np.abs(Ifft)), cmap ='bwr'), plt.title('Fourier Transform')
+plt.show()
 
 
 # Create a low-pass filter (example) and demonstrate proper convolution use

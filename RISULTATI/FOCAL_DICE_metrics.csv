@@ -1,0 +1,2 @@
+name,checkpoint,pixel_acc,mIoU_present,mIoU_all,F1_micro,mF1_present,mF1_all,present_classes
+FOCAL_DICE,/kaggle/input/mimimi/checkpointFOCALDICE.pth,0.9178998470306396,0.35896405577659607,0.27819713950157166,0.6873783469200134,0.48352497816085815,0.3747318685054779,62

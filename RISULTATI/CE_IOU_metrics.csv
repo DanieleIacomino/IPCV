@@ -1,0 +1,2 @@
+name,checkpoint,pixel_acc,mIoU_present,mIoU_all,F1_micro,mF1_present,mF1_all,present_classes
+CE_IOU,/kaggle/input/mimimi/checkpointCEIOU.pth,0.925823986530304,0.3707776665687561,0.28735268115997314,0.7188867926597595,0.49057459831237793,0.3801953196525574,62
